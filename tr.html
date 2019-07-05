@@ -1,0 +1,444 @@
+<HTML><HEAD><TITLE>UMLStudio-Generated HTML Document</TITLE></HEAD><BODY BGCOLOR=#FFFFFF>
+<H2><FONT COLOR=#8F0000>Untitled</FONT> (<FONT COLOR=#00008F>public </FONT>default model)
+<P>
+<FONT FACE=Times SIZE=-1>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=0 BORDER=0>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Contains:</I></TD>
+<TD VALIGN=TOP WIDTH=500><A HREF="#non_giocatoreplace1">non_giocatore</A>, <A HREF="#campionatoplace1">campionato</A>, <A HREF="#squadraplace1">squadra</A>, <A HREF="#partitaplace1">partita</A>, <A HREF="#giocatoreplace1">giocatore</A>.</TD></TR>
+</TABLE>
+
+<P>
+<H3><A NAME="non_giocatoreplace1"><FONT COLOR=#8F0000>non_giocatore</FONT> (<FONT COLOR=#00008F>package </FONT>Class/Interface)</A>
+<P>
+<FONT FACE=Times SIZE=-1>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=0 BORDER=0>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Methods:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>initialize (in_nome: char*, in_eta: int, in_ruolo: char, in_speciale: char, in_tat: char*, in_lib: char, in_fuo: char, in_bonus: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_valore (: void) : int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>display_dati (: void)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>set_nome (in_nome: char*)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_nome (: void) : char*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>set_tat (in_tat: char*)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_tat (: void) : char*</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Get/Set:</I></TD>
+<TD VALIGN=TOP WIDTH=500></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Attributes:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>protected </FONT><FONT COLOR=#00008F></FONT><B>nome: char*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>eta: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ruolo: char</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>speciale: char</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>tat: char*</B>
+<BR>
+<FONT COLOR=#008F00><I>tattica per cui si ha il bonus
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>lib: char</B>
+<BR>
+<FONT COLOR=#008F00><I>libero S/N
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>fuo: char</B>
+<BR>
+<FONT COLOR=#008F00><I>fuorigioco S/N
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>bonus: int</B>
+<BR>
+<FONT COLOR=#008F00><I>bonus punti per il tattico
+</I></FONT></TD></TR>
+</TABLE>
+
+<P>
+<H3><A NAME="campionatoplace1"><FONT COLOR=#8F0000>campionato</FONT> (<FONT COLOR=#00008F>package </FONT>Class/Interface)</A>
+<P>
+<FONT FACE=Times SIZE=-1>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=0 BORDER=0>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Methods:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>initialize (num_squadre: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>display (modo: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>set_num_squadre (in_num_squadre: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_calendario (: void)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_calendario_coppa (turno: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_turni_coppa (: void)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_classifica (: void)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_classifica_marcatori (: void)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_nome_id (id: int) : char*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_squadra_id (id: int) : char*</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Get/Set:</I></TD>
+<TD VALIGN=TOP WIDTH=500></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Attributes:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>classifica: int[MAX_SQUADRE]›‚N[2]</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>classifica_marcatori: int[MAX_GIOCATORI* MAX_SQUADRE][2]</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>progr_partita: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>storia: char[MAX_PARTITE][20]</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>calendario: int[MAX_PARTITE][2]</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_partite: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_squadre: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>squadra_scelta: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>partite_per_giornata: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_giornata: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_giornate: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_partite_coppa: int</B>
+<BR>
+<FONT COLOR=#008F00><I>dati coppa
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_squadre_coppa: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_turni_coppa: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>progr_partita_coppa: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>calendario_coppa: int[MAX_PARTITE][2]</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>storia_coppa: char[MAX_PARTITE][30]</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>num_giocatori_totali: int</B>
+<BR>
+<FONT COLOR=#008F00><I>dati coppa
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>squadre: squadra*DRE[MAX_SQUADRE]</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Relations:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><B>squadre:  -->  &lt<A HREF="#squadraplace1">squadra</A>&gt*</B></TD></TR>
+</TABLE>
+
+<P>
+<H3><A NAME="squadraplace1"><FONT COLOR=#8F0000>squadra</FONT> (<FONT COLOR=#00008F>package </FONT>Class/Interface)</A>
+<P>
+<FONT FACE=Times SIZE=-1>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=0 BORDER=0>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Methods:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>initialize (in_nome: char*, in_pa: int, in_ps: int, in_pgp: int, in_ml: int, in_tat: char*, in_lib: char, in_fuo: char, in_id_squadra: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>set_nome (in_nome: char*)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_nome (: void) : char*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>set_tat (in_tat: char*)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_tat (: void) : char*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>display (modo: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_valori_area (: void) : int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>assegna_bonus (: squadra*, : int)</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Get/Set:</I></TD>
+<TD VALIGN=TOP WIDTH=500></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Attributes:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>protected </FONT><FONT COLOR=#00008F></FONT><B>nome: char*</B>
+<BR>
+<FONT COLOR=#00008F>protected </FONT><FONT COLOR=#00008F></FONT><B>poc: int</B>
+<BR>
+<FONT COLOR=#008F00><I>posizione in campionato
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>protected </FONT><FONT COLOR=#00008F></FONT><B>tce: int</B>
+<BR>
+<FONT COLOR=#008F00><I>numero turno coppa europea
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>id_squadra: int</B>
+<BR>
+<FONT COLOR=#008F00><I>progressivo squadra
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>flg_ai: int</B>
+<BR>
+<FONT COLOR=#008F00><I>0=computer, 1=giocatore umano
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>tat: char*</B>
+<BR>
+<FONT COLOR=#008F00><I>tattica impiegata
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>dur: int</B>
+<BR>
+<FONT COLOR=#008F00><I>durezza (0-10)
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ppo: int</B>
+<BR>
+<FONT COLOR=#008F00><I>valore portiere
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pli: int</B>
+<BR>
+<FONT COLOR=#008F00><I>valore libero
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pdi: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti difesa
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pce: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti centrocampo
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pat: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti attacco
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>fc: int</B>
+<BR>
+<FONT COLOR=#008F00><I>fattore campo
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>cat: char</B>
+<BR>
+<FONT COLOR=#008F00><I>catenaccio S/N
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pa: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti allenamento
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ps: int</B>
+<BR>
+<FONT COLOR=#008F00><I>pacche spalle
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pgp: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti grande prestazione
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ml: int</B>
+<BR>
+<FONT COLOR=#008F00><I>milioni
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>lib: char</B>
+<BR>
+<FONT COLOR=#008F00><I>libero S/N
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>fuo: char</B>
+<BR>
+<FONT COLOR=#008F00><I>fuorigioco S/N
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ngr: int</B>
+<BR>
+<FONT COLOR=#008F00><I>numero giocatori in rosa
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>nng: int</B>
+<BR>
+<FONT COLOR=#008F00><I>numero non giocatori in rosa
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pts: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti in campionato
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>rf: int</B>
+<BR>
+<FONT COLOR=#008F00><I>reti fatte
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>rs: int</B>
+<BR>
+<FONT COLOR=#008F00><I>reti subite
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pv: int</B>
+<BR>
+<FONT COLOR=#008F00><I>partite vinte
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pn: int</B>
+<BR>
+<FONT COLOR=#008F00><I>partite pareggiate
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pp: int</B>
+<BR>
+<FONT COLOR=#008F00><I>partite perse
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ppg: int</B>
+<BR>
+<FONT COLOR=#008F00><I>partite disputate in una giornata
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>agghs: int</B>
+<BR>
+<FONT COLOR=#008F00><I>gol coppa in casa per turno
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>agghf: int</B>
+<BR>
+<FONT COLOR=#008F00><I>gol coppa in casa per turno
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>aggas: int</B>
+<BR>
+<FONT COLOR=#008F00><I>gol trasferta coppa per turno
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>aggaf: int</B>
+<BR>
+<FONT COLOR=#008F00><I>gol trasferta coppa per turno
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>tcl: int</B>
+<BR>
+<FONT COLOR=#008F00><I>numero turno coppa di lega (-1 non partecipa, 0 primo turno, 1 secondo ecc.)
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>giocatori: giocatore*ORI[MAX_GIOCATORI]</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Relations:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><B>non_giocatori: #1 --> #n &lt<A HREF="#non_giocatoreplace1">non_giocatore</A>&gt*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><B>giocatori:  -->  &lt<A HREF="#giocatoreplace1">giocatore</A>&gt*</B></TD></TR>
+</TABLE>
+
+<P>
+<H3><A NAME="partitaplace1"><FONT COLOR=#8F0000>partita</FONT> (<FONT COLOR=#00008F>package </FONT>Class/Interface)</A>
+<P>
+<FONT FACE=Times SIZE=-1>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=0 BORDER=0>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Comment:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#008F00><I>class coppa:public campionato
+<BR>\{
+<BR>public:
+<BR>int turno;
+<BR>void determina_calendario(void);
+<BR>\};
+</I></FONT></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Methods:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>controlla_triplo (: void) : int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>calcola_tiri (: void)</B>
+<BR>
+<FONT COLOR=#008F00><I>0 OK, 1 sq. 1, 2 sq. 2, 3 entrambi
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>gioca_partita (flg_tipo_partita: int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>initialize (: squadra*, : squadra*)</B>
+<BR>
+<FONT COLOR=#008F00><I>0 campionato, 1 coppa
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>assegna_gol (: squadra*)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_infortuni (: squadra*, : squadra*, : int)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_sanzioni (: squadra*, : int)</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Get/Set:</I></TD>
+<TD VALIGN=TOP WIDTH=500></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Attributes:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>tiri1: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>tiri2: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>res1: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>res2: int</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Relations:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><B>squadra2:  -->  &lt<A HREF="#squadraplace1">squadra</A>&gt*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><B>squadra1:  -->  &lt<A HREF="#squadraplace1">squadra</A>&gt*</B></TD></TR>
+</TABLE>
+
+<P>
+<H3><A NAME="giocatoreplace1"><FONT COLOR=#8F0000>giocatore</FONT> (<FONT COLOR=#00008F>package </FONT>Class/Interface)</A>
+<P>
+<FONT FACE=Times SIZE=-1>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=0 BORDER=0>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Methods:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>initialize (in_id_giocatore: int, in_nome: char*, in_livello: int, in_forma: int, in_eta: int, in_ruolo: char, in_speciale: char)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>determina_valore (: void) : int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>display_dati (: void)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>set_nome (in_nome: char*)</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_nome (: void) : char*</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>get_id (: void) : int</B></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Get/Set:</I></TD>
+<TD VALIGN=TOP WIDTH=500></TD></TR>
+<TR><TD VALIGN=TOP WIDTH=90 HEIGHT=22><I>Attributes:</I></TD>
+<TD VALIGN=TOP WIDTH=500><FONT COLOR=#00008F>protected </FONT><FONT COLOR=#00008F></FONT><B>nome: char*</B>
+<BR>
+<FONT COLOR=#00008F>protected </FONT><FONT COLOR=#00008F></FONT><B>id_giocatore: int</B>
+<BR>
+<FONT COLOR=#008F00><I>progressivo giocatore (a livello di tutto il campionato)
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pdisp: int</B>
+<BR>
+<FONT COLOR=#008F00><I>partite disputate
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>reti: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>pd: int</B>
+<BR>
+<FONT COLOR=#008F00><I>punti disciplina
+</I></FONT>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>livello: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>forma: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>eta: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>valore: int</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>ruolo: char</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>speciale: char</B>
+<BR>
+<FONT COLOR=#00008F>public </FONT><FONT COLOR=#00008F></FONT><B>gioca: char</B></TD></TR>
+</TABLE>
+
+<P>
+<HR></BODY></HTML>
